@@ -29,11 +29,12 @@ export default function Weather() {
         <li>Sunny</li>
       </ul>
 
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Sunny"
+            className="weather-img"
           />
 
           <span className="temperature">6</span>
