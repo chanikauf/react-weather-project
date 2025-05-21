@@ -25,7 +25,7 @@ export default function Weather() {
       </form>
       <h1>Salford</h1>
       <ul>
-        <li>Wednesday: 15:00</li>
+        <li>Wednesday 15:00</li>
         <li>Sunny</li>
       </ul>
 
