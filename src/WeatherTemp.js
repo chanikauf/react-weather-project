@@ -14,6 +14,7 @@ export default function WeatherTemp(props) {
   if (unit === "celsius") {
     return (
       <div className="WeatherTemp">
+        <img src={props.iconUrl} alt="Icon" className="weather-img" />
         <span className="temperature">{props.celsius}</span>
         <span className="unit">
           °C |{" "}
