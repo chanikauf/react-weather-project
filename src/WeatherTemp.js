@@ -29,6 +29,7 @@ export default function WeatherTemp(props) {
 
     return (
       <div className="WeatherTemp">
+        <img src={props.iconUrl} alt="Icon" className="weather-img" />
         <span className="temperature">{Math.round(fahrenheit)}</span>
         <span className="unit">
           <a href="/" onClick={showCelsius}>
