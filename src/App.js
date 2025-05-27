@@ -7,7 +7,12 @@ function App() {
       <Weather defaultCity="New York" />
       <footer>
         This project was coded by Chani Kaufman and open-sourced on{" "}
-        <a href="https://github.com/chanikauf/react-weather-project">GitHub.</a>
+        <a
+          href="https://github.com/chanikauf/react-weather-project"
+          target="_blank"
+        >
+          GitHub.
+        </a>
       </footer>
     </div>
   );
